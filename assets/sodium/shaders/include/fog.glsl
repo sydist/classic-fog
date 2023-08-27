@@ -1,9 +1,9 @@
-const int FOG_SHAPE_SPHERICAL = 1;
-const int FOG_SHAPE_CYLINDRICAL = 0;
+const int FOG_SHAPE_SPHERICAL = 0;
+const int FOG_SHAPE_CYLINDRICAL = 1;
 
 vec4 _linearFog(vec4 fragColor, float fragDistance, vec4 fogColor, float fogStart, float fogEnd) {
 #ifdef USE_FOG
-    fogStart *= 0.333;
+    fogStart *= 0.3333333;
     float factor = smoothstep(fogStart, fogEnd, fragDistance * fogColor.a); // alpha value of fog is used as a weight
     vec3 blended = mix(fragColor.rgb, fogColor.rgb, factor);
 

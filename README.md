@@ -8,4 +8,4 @@ Thanks to my friend [flamesatgames](https://youtube.com/flamesatgames) for reque
 
 ---
 
-<small>NOTE: This doesn't work with Sodium because it doesn't support core shaders, you need to use [DartCart25's Sodium Shader Support mod](https://github.com/dartcat25/sodium-shader-support)</small>
+<small>NOTE: This doesn't work with Sodium because it doesn't support core shaders, you need to use [DartCat25's Sodium Shader Support mod](https://github.com/dartcat25/sodium-shader-support)</small>
